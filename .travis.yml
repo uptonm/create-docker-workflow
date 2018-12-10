@@ -3,6 +3,6 @@ language: generic
 services:
   - docker
 before_install:
-  - docker build -t uptonm/create-docker-workflow -f ./client/Dockerfile.dev ./client
+  - docker build -t uptonm/docker-react -f Dockerfile.dev .
 scripts:
-  - docker run uptonm/create-docker-workflow:latest npm run test -- --coverage
+  - docker run uptonm/docker-react npm run test -- --coverage
