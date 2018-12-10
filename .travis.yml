@@ -5,4 +5,4 @@ services:
 before_install:
   - docker build -t uptonm/create-docker-workflow -f ./client/Dockerfile.dev ./client
 scripts:
-  - docker run uptonm/create-docker-workflow npm run test -- --coverage
+  - docker run uptonm/create-docker-workflow:latest npm run test -- --coverage
