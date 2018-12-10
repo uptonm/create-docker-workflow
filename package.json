@@ -1,0 +1,19 @@
+{
+  "name": "create-docker-workflow",
+  "version": "1.0.0",
+  "description": "Create a docker react workflow with create-react-app, Travis CI testing, and AWS EC2 Hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uptonm/create-docker-workflow.git"
+  },
+  "author": "uptonm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uptonm/create-docker-workflow/issues"
+  },
+  "homepage": "https://github.com/uptonm/create-docker-workflow#readme"
+}
