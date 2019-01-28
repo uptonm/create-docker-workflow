@@ -5,4 +5,4 @@ services:
 before_install:
   - docker build -t uptonm/docker-react -f ./client/Dockerfile.dev ./client/
 scripts:
-  - docker run uptonm/docker-react npm run test -- --coverage
+  - docker run uptonm/docker-react npm-test -- --coverage
